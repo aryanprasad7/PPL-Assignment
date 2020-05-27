@@ -1,0 +1,35 @@
+change_directory('C:/GNU-Prolog/Prolog Workspace').
+
+Queries
+1. allair(A, B, C). 
+=> To list down all airports with their tax ,
+ security delay
+
+2. checkflight(toronto, madrid). 
+=> To check the availability of any flight
+ from A to B.
+
+3. availableflight(A, B, C, D, E). 
+=> To display all the available flights with
+ their cost, duration, flight name
+
+4. flightcheap(paris, toulouse, C, D, E).
+=> To check if there exist a cheap flight 
+between city A and B.
+
+5. doubleflights(toronto, barcelona). 
+=> To check if it is possible to reach from A to B in two flights.
+
+6. preferred(toronto, madrid, C, D, E).
+=> A flight from city A to city B with airline
+ C is preferred if it’s cheap (see (b)) or 
+it’s with Air Canada.
+
+7. exists(toronto, madrid). 
+=> If there exists a flight from A to B with
+ 'United' then there exists a flight from A to B
+ with 'Air Canada'.
+
+
+
+
